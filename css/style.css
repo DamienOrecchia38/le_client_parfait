@@ -1,0 +1,22 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+header, .icons, .gallery, .carousel, .blog, .contact:first-child > div, footer {
+    padding: 60px;
+}
+
+h1, h2, h3 {
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+iframe {
+    padding: 0;
+}
