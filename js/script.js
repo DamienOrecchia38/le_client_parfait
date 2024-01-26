@@ -10,3 +10,20 @@
           autoplaySpeed: 2000 // Durée entre chaque changement des slide en mode automatique (millisecondes)
         });
       });
+
+    // Fonction appelée lorsqu'un onglet de la partie galerie est cliqué
+    function filterImages(category) {
+      // Masque toutes les images
+      const allImages = document.querySelectorAll('.gallery img');
+      allImages.forEach(image => image.style.display = 'none');
+
+      // Affiche uniquement les images de la catégorie sélectionnée
+      const selectedImages = document.querySelectorAll(`.gallery .${category}`);
+      selectedImages.forEach(image => image.style.display = 'block');
+
+      // Met à jour l'état actif de l'onglet
+      const tabs = document.querySelectorAll('.category-tab');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      const activeTab = document.querySelector(`.category-tab.${category}`);
+      activeTab.classList.add('active');
+    }      
