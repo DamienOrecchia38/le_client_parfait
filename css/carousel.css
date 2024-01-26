@@ -4,7 +4,7 @@
     align-items: center;
     background-color: #F7C552;
     height: 400px;
-    padding: ;
+    padding: 0;
   }
 
   /* Styles pour les indicateurs de pagination */
@@ -37,6 +37,11 @@
   .name {
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+
+  .slick-dotted.slick-slider
+  {
+    margin-bottom: 0px;
   }
 
   .name h2 {
