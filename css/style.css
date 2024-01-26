@@ -9,7 +9,7 @@ header, .icons, .gallery, .carousel, .blog, .contact:first-child > div, footer {
     padding: 40px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
 }
@@ -103,7 +103,21 @@ header div a {
     background-color: #F7C552;
     width: 100px;
     padding: 10px;
-    border-radius: 40px;
+    border-radius: 50px;
     border: 4px solid white;
-    
+    object-fit: none;
 }
+
+h3 {
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about a {
+    background-color: #33C1CF;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+
+.about p {margin-bottom: 30px;}
