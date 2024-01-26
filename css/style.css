@@ -1,13 +1,17 @@
 body {
     font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 header, .icons, .gallery, .carousel, .blog, .contact:first-child > div, footer {
-    padding: 60px;
+    padding: 40px;
 }
 
 h1, h2, h3 {
     font-family: 'Kanit', sans-serif;
+    font-weight: 200;
 }
 
 a {
@@ -17,6 +21,89 @@ a {
     font-weight: 300;
 }
 
-iframe {
-    padding: 0;
+header {
+    background-image: url(../assets_maquette/banner_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+}
+
+.logo strong {
+    color: #F7C552;
+    font-size: 26px;
+}
+
+.navbar { display: none;}
+
+.dropdown {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+}
+
+.dropdown i {
+    color:white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+h1 { font-size: 30px;}
+
+h1 strong {
+    font-size: bold;
+    color: #33C1CF;
+}
+
+h1 strong span {color: #F89726;}
+
+header div p { margin: 40px 0;}
+
+header div a {
+    color: black;
+    padding: 13px 25px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.icons {
+    background-image: url(../assets_maquette/about-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons .about {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.about img {
+    background-color: #F7C552;
+    width: 100px;
+    padding: 10px;
+    border-radius: 40px;
+    border: 4px solid white;
+    
 }
