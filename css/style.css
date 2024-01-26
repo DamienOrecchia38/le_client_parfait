@@ -5,7 +5,7 @@ body {
     font-weight: 300;
 }
 
-header, .icons, .carousel, .blog, .contact:first-child > div, footer {
+header, .icons, .carousel, .contact:first-child > div, footer {
     padding: 40px;
 }
 
@@ -135,7 +135,7 @@ h3 {
     text-align: center;
 }
 
-.text_gallery ul {padding: 0;}
+ul {padding: 0;}
 
 .text_gallery ul li {
     list-style: none;
@@ -161,3 +161,129 @@ h3 {
     object-fit: contain;
     margin: 10px 0;
 }
+
+.blog {
+    background-image: url(../assets_maquette/blog-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    text-align: center;
+}
+
+.blog_menu {
+    background-color: #000000c5;
+    padding: 80px 40px;
+}
+
+.blog_menu li {
+    list-style: none;
+    margin: 30px 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px 40px;
+}
+
+.blog_menu a {
+    background-color: white;
+    color: black;
+    padding: 15px 40px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.blog_menu .active {color: #F7C552;}
+
+.blog_menu p {margin-bottom: 60px;}
+
+.articles {
+    margin: 20px 10px;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.articles img {width: 100%;}
+
+.articles h3, .articles p {padding: 5px 20px;}
+
+.articles h3 {
+    color: black;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+}
+
+.articles p {color: gray;}
+
+.articles .article_info {
+    color: #33C1CF;
+    font-size: 12px;
+    margin: 0;
+}
+
+.contact div:first-child {
+    background-color: #596066;
+    text-align: center;
+    padding: 100px 40px;
+}
+
+.contact p {
+    padding-bottom: 20px;
+}
+
+.contact a {
+    background-color: #33C1CF;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+
+.contact iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: #363A3D;
+    text-align: center;
+    padding: 100px 40px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+footer .logo {
+    position: relative;
+    left: 0%;
+}
+
+.location, .more_info {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a i {
+    background-color: white;
+    border-radius: 20px;
+    color: #363A3D;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.location div {
+    width: 50%;
+}
+
+.location div:first-child {border-right: 1px solid hsla(200, 10%, 50%,100);}
