@@ -5,13 +5,19 @@ body {
     font-weight: 300;
 }
 
-header, .icons, .gallery, .carousel, .blog, .contact:first-child > div, footer {
+header, .icons, .carousel, .blog, .contact:first-child > div, footer {
     padding: 40px;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 a {
@@ -121,3 +127,37 @@ h3 {
 }
 
 .about p {margin-bottom: 30px;}
+
+.text_gallery {
+    background-color: #33C1CF;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+.text_gallery ul {padding: 0;}
+
+.text_gallery ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.text_gallery ul li a {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.text_gallery .active {color: #F7C552;}
+
+.images_gallery {
+    display: flex;
+    flex-flow: wrap column;
+    padding: 0 40px;
+}
+
+.images_gallery img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 10px 0;
+}
