@@ -1,0 +1,38 @@
+@media only screen and (min-width:700px) {
+    .navbar {
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+      }
+    .navbar a {        
+        margin: 10px 30px;
+    }
+    .dropdown {display: none;}
+    header {
+        padding: 10%;
+    }
+    .images_gallery {
+        flex-flow: wrap row;
+        margin: 20px 0;
+    }
+    .images_gallery img
+    {
+      width: 50%;
+      margin: 0;
+    }
+    .blog_menu {width: 100%;}
+}
+
+@media only screen and (min-width:1000px) {
+    header {
+        padding: 30%;
+    }
+    .icons {
+        flex-flow: wrap row;
+        justify-content: center;
+        padding: 0;
+    }
+    .icons .about {width: 20%;}
+    .text_gallery {width: 50%;}
+}
