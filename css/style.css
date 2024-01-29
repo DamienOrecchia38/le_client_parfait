@@ -9,6 +9,11 @@ header, .icons, .carousel, .contact:first-child > div, footer {
     padding: 40px;
 }
 
+hr {
+    margin: 1rem auto;
+    width: 80%;
+}
+
 h1 {
     font-family: 'Kanit', sans-serif;
     font-weight: 200;

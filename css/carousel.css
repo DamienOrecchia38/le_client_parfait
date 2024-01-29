@@ -58,3 +58,8 @@
     align-items: center;
     color: white;
   }
+
+.slick-next{
+  right: 0;
+  display: none!important;
+}
