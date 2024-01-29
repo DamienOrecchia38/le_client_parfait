@@ -26,4 +26,4 @@
       tabs.forEach(tab => tab.classList.remove('active'));
       const activeTab = document.querySelector(`.category-tab.${category}`);
       activeTab.classList.add('active');
-    }      
+    }
