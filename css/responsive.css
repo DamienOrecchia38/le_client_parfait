@@ -71,4 +71,7 @@
       left: 110px;
       top: 20px;
     }
+    footer hr {
+        display: none;
+    }
 }

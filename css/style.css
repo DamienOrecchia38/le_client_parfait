@@ -89,6 +89,17 @@ header div a {
     background-color: white;
     border-radius: 20px;
     font-weight: 400;
+    position: relative;
+    top: 0;
+    border-bottom: 0px solid black;
+    transition: 400ms ease-in;
+}
+
+header div a:hover {
+    position: relative;
+    top: 6px;
+    border-bottom: 6px solid black;
+    transition: 200ms ease-out;
 }
 
 .icons {
@@ -129,6 +140,12 @@ h3 {
     background-color: #33C1CF;
     padding: 12px 30px;
     border-radius: 20px;
+    transition: 800ms;
+}
+
+.about a:hover {
+    background-color: #F89726;
+    transition: 400ms;
 }
 
 .about p {margin-bottom: 30px;}
@@ -241,11 +258,15 @@ ul {padding: 0;}
     background-color: #33C1CF;
     padding: 12px 30px;
     border-radius: 20px;
+    transition: 800ms;
 }
 
-.contact iframe {
-    width: 100%;
+.contact a:hover {
+    background-color: #F89726;
+    transition: 400ms;
 }
+
+.contact iframe {width: 100%;}
 
 footer {
     background-color: #363A3D;
@@ -284,6 +305,12 @@ footer a i {
     color: #363A3D;
     padding: 10px;
     margin: 10px 0;
+    transition: 800ms;
+}
+
+footer a i:hover {
+    background-color: #33C1CF;
+    transition: 400ms;
 }
 
 .location div {
