@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     background-color: #F7C552;
-    height: 400px;
+    height: 600px;
     padding: 0;
+    text-align: center;
   }
 
   /* Styles pour les indicateurs de pagination */
   .carousel .slick-dots {
-    bottom: 10%; /* position verticale des points */
+    bottom: 25%; /* position verticale des points */
   }
 
   .carousel .slick-dots li button:before {
