@@ -53,11 +53,13 @@
         display: flex;
         flex-flow: wrap column;
         justify-content: center;
-        padding-left: 150px; 
+        padding-left: 7%; 
         text-align: left;
     }
+    .blog_menu p {margin-bottom: 0;}
+    .blog_menu hr {margin: 1rem 0;}
     .articles {
-        margin-right: 100px;
+        margin-right: 5%;
     }
     .contact div:first-child {
         padding: 200px;
