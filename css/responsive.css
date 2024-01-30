@@ -21,7 +21,6 @@
       width: 50%;
       margin: 0;
     }
-    .blog_menu {width: 100%;}
 }
 
 @media only screen and (min-width:1000px) {
@@ -31,8 +30,10 @@
     .icons {
         flex-flow: wrap row;
         justify-content: center;
-        align-items: space-around;
-        padding: 0;
+        padding: 60px 0;
+    }
+    .gallery {
+        height: 900px;
     }
     .gallery, .blog {
         display: flex;
@@ -40,7 +41,11 @@
     }
     .icons .about {
         width: 20%;
-        margin: 60px 0px;
+        margin: 60px 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
     }
     .text_gallery, .blog_menu {width: 40%;}
     .images_gallery, .articles {width: 60%;}

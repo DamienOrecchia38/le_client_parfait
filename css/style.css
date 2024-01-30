@@ -162,9 +162,7 @@ ul {padding: 0;}
 .text_gallery ul li {
     list-style: none;
     margin: 10px 0;
-}
-
-.text_gallery ul li a {
+    cursor: pointer;
     text-transform: capitalize;
     font-weight: 400;
 }
@@ -199,6 +197,7 @@ ul {padding: 0;}
 .blog_menu {
     background-color: #000000c5;
     padding: 80px 40px;
+    width: 100%;
 }
 
 .blog_menu li {
