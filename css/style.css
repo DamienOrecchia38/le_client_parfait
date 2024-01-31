@@ -232,15 +232,19 @@ ul {padding: 0;}
 
 .articles h3 {
     color: black;
-    font-weight: 400;
     margin: 20px 0 0 0;
+    font-weight: 700;
 }
 
-.articles p {color: gray;}
+.articles p {
+    color: rgb(129, 129, 129);
+    font-weight: 500;
+}
 
 .articles .article_info {
     color: #33C1CF;
     font-size: 12px;
+    font-weight: 500;
     margin: 0;
 }
 
