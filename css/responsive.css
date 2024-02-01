@@ -56,6 +56,9 @@
         padding-left: 7%; 
         text-align: left;
     }
+    .images_gallery {
+        padding-bottom: 10px;
+    }
     .carousel {
         padding: 0 30%;
     }
